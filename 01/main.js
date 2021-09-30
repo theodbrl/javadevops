@@ -24,15 +24,18 @@
 //     alert("Erreur");
 // 
 var max = Math.round(Math.random()*100)+100;
-var min = Math.round(Math.random()*100);
-
-var nombre = prompt("Choissisez un nombre");
-
-if (nombre < max & nombre > min ){
-    alert("Vous avez gagné");
-}else{
-    alert("Vous avez perdu");
-}
+var min = Math.round(Math.random()*100); 
 
 console.log(min)
 console.log(max)
+
+var nombre = prompt("Choissisez un nombre");
+while(nombre){
+if (nombre < max & nombre > min ){
+    alert("Vous avez gagné");
+    break;
+}else{
+    nombre = prompt("Choissisez un nombre")
+}
+}
+
