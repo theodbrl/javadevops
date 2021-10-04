@@ -1,0 +1,96 @@
+body {
+    background-color: red;
+}
+
+.main {
+    background-color: #4D83DE;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding-top: 2%;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 5%;
+}
+
+
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    
+}
+
+.hobbies {
+    display: inline-block;
+    margin-left: 5%;
+    text-align: center;
+}
+.neymar img {
+    width: 70%;
+    border-radius: 50% 0% 50% 0%; 
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.neymar {
+    width: 300px;
+    margin: 0 auto;
+}
+.expériences{
+    font-size: 15px;
+    color: white;
+    margin: 20px;
+    font-weight: lighter;
+}
+
+.expériences li {
+    margin-left: 10%;
+}
+
+.expériences span {
+    font-weight: bold;
+}
+.formations {
+    font-size: 15px;
+    color: white;
+    margin: 20px;
+    font-weight: lighter;
+}
+.formations span {
+    font-weight: bold;
+}
+hr {
+    width: 50%;
+    height: 5px;
+    border: none;
+    background-color: white;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact2 {
+    margin-left: 5%;
+    line-height: 150%;
+}
+.contact2 span {
+    color: red;
+}
+p{
+    color: white;
+}
