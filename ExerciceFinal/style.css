@@ -1,29 +1,74 @@
+/* Body */  
+
 body{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
+/* navbar */
+.container {
+    display: flex;
+    position: relative;
+ }
+ 
+ .block {
+    margin-left: auto;
+    margin-right: auto;
+    
+ }
 .navbar{
     display: flex;
     color: white;
-    justify-content: space-around;
-   
- 
+    justify-content: space-around; 
+    width: 100%;
+    align-items: flex-end;
+    
 }
-
 nav{
     display: flex;
-    justify-content: space-around;
-    background-color: black;
-    align-items: flex-end;
-     width: 100%;
-     font-family: monospace;
+    background-color: #162133;
+    padding: 10px; 
+    
 }
-
-h2{
-     padding: 15px;
-}
-
 nav img{
-    height: 100%;
+    width: 15%;
 }
+
+li{
+    list-style-type: none;
+    
+}
+
+/* Image voiture */
+
+.imagevoitures img{
+    width: 100%;
+    z-index: 1;
+ }
+ .imagevoitures{
+     margin: 0;
+     
+ }
+ 
+ .textvoitures p {
+     padding: 20px;
+     margin-top: -140px;
+     color: black;
+     position: absolute;
+     background-color: cornflowerblue;
+     border-radius: 20px;  
+     border-style: outset;  
+}
+
+.textvoitures{
+     margin-right: 320px;
+     float: right;
+     padding: px;
+
+}
+
+
+ 
+  
+
+
