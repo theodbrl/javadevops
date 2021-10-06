@@ -50,25 +50,145 @@ li{
      
  }
  
- .textvoitures p {
+ .textvoitures button {
      padding: 20px;
      margin-top: -140px;
      color: black;
      position: absolute;
-     background-color: cornflowerblue;
-     border-radius: 20px;  
-     border-style: outset;  
+     background-color: #007BE0;
+     border: none;
 }
 
 .textvoitures{
      margin-right: 320px;
      float: right;
-     padding: px;
+     
 
 }
 
+/* Rectangle */
 
+.rectangle{
+    background-color: #152848;
+   margin-top: 50px;
+  
+
+}
+
+.textrectangle p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.textrectangle{
+   padding: 25px;
+}
+
+.iconerectangle{
+    background-color: #007BE0;
+    width: 150px;
+    padding: 15px; 
+    display: block;
+    margin: 0 5px;
+    text-align: center;
+}  
+
+.iconerectangle h2 {
+    font-size: 15px;
+    
+}
+.icone{
+    display: flex;
+    padding: 10px;
+    justify-content: center; 
+    width: 100%;
+    margin-top: -30px;
+}
+
+/* second image */
+
+.text h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.moment{
+    display: flex;
+    justify-content: center;
+    width: 100%;   
+}
+
+.momentcar img{
+   
+   width: 100% 
+}
+.momentcar{
+    width: 33%;
+    margin: 0 3px;
+}
+
+.momentcar h2 {
+    font-family: fantasy;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.momentcartext  {
+    margin-top: 0;
+    
+}
+
+.rectanglesuv 
+ {
+    background-color: #162133;
+    height: 50px;
+    width: 90px;
+    border: none;
+    color: white;
+   
+}
+
+/* troisieme images */
+.icone2{
+    display: flex;
+    padding: 10px;
+    justify-content: center; 
+    width: 100%;
+    margin-top: -30px;
+    
+}
  
+.iconevoiture img {
+    width: 400px;
+    display: block;
+}
+
+.iconevoiture h2 {
+    
+    margin-top: 100px;
+}
+
+.iconevoiture {
+    text-align: center;
+    justify-self: center;
+  border: solid gray 1px;
+  padding: 25px;
+  margin-top: 20px;
+    
+}
+
+.iconevoiture button{
+    padding: 15px;
+    border: none;
+    background-color: #007BE0;
+}
+
+
+
+
+
   
 
 
