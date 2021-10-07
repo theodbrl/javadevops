@@ -161,21 +161,21 @@ li{
 }
  
 .iconevoiture img {
-    width: 400px;
-    display: block;
+width: 400px;
+display: block;
 }
 
 .iconevoiture h2 {
     
-    margin-top: 100px;
+margin-top: 100px;
 }
 
 .iconevoiture {
-    text-align: center;
-    justify-self: center;
-  border: solid gray 1px;
-  padding: 25px;
-  margin-top: 20px;
+text-align: center;
+justify-self: center;
+border: solid gray 1px;
+padding: 25px;
+margin-top: 20px;
     
 }
 
@@ -185,6 +185,118 @@ li{
     background-color: #007BE0;
 }
 
+
+/* image 4 */
+
+.iconevoiture1   {
+   text-align: center;
+    margin-top: 50px;  
+}
+.iconevoiture1 p{
+    margin-top: -10px;
+}
+
+.actu{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+    
+    margin-top: -30px;
+}
+
+.actu1 img{
+    width: 100%;
+    
+}
+.actu1 { 
+   margin-top: 50px;
+   width: 100%;
+}
+
+.actu1 h2{
+    font-family: monospace;
+}
+
+.actu1 button{
+    background-color: #162133;
+    border: none;
+    color: white;
+    padding: 14px;
+}
+
+/* derniere partie */
+
+.general {
+    display: flex;
+    justify-content: center;
+    ;
+}
+.tableau {
+    padding: 80px;
+}
+.liste li{
+   margin-top: 10px;
+}
+
+.texttableau {
+    text-decoration-line: underline;
+}
+
+.numero {
+    text-align: center;
+    font-size:25px;
+}    
+
+.back {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.backcolor {
+    background-color: #162133;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.backcolor1 {
+    background-color:gray ;
+    width: 50%;
+    text-align: center;
+}
+
+/* image reseau */
+
+.reseau img {
+    width: 30px;
+    
+}
+
+.reseau {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* info */
+
+
+.textinfo {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    
+    margin-top: 60px;
+}
+
+.textinfo li{
+    border-right: solid gray;
+    padding: 0 44px;
+   
+    ;
+    
+}
 
 
 
